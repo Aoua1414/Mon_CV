@@ -1,0 +1,134 @@
+body{
+    margin: auto;
+    width: 90%;
+}
+.premier{
+    background-color: #94a6b2;
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+h1,h3{
+    margin: 0;
+}
+.trois h3{
+    padding-left: 0;
+}
+.trois p{
+    margin: 0;
+}
+.trois{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#img1{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+.quatre{
+    display: flex;
+}
+.quatre1{
+    background-color: #353e4d;
+    padding-right: 3em;
+    color: white;
+}
+h3{
+    margin-left: 0px;
+}
+.liste .o{
+    margin: auto;
+} 
+.quatre2{
+    background-color: #ffffff;
+   
+}
+
+.icon{
+    margin-top: 10px;
+    display: flex;
+    padding-left: 20px;
+}
+.icon img{
+    width: 30px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+h3{
+    padding-left: 10px;
+}
+h2{
+    padding-left: 10px;
+}
+.liste{
+    list-style: none;
+    margin-left: 10px;
+    padding-right: 15px
+}
+.i{
+    list-style: none;
+    padding-right: 15px; 
+}
+.o{
+    list-style: none;
+    margin-left: 10px;
+}
+/* @media(max-width:1000px) {
+    .premier{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quatre1{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quatre2{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+    
+        @media screen and (max-width: 600px) {
+            .quatre{
+                flex-wrap: wrap;
+                margin: 0;
+            }
+            .quatre1{
+                width: 100%;
+               }
+           .quatre2{
+            width: 100%;
+           }
+           .premier{
+                flex-wrap: wrap;
+           }
+           .deuxieme{
+            width: 100vw;
+           }
+           .trois{
+            width: 100vw;
+           }
+
+    }
+
+    .tt{
+        margin-bottom: 12px;
+    }
+
+
+@media screen and (max-width: 579px){
+    
+#img1 {
+    width: 160px;
+    margin-left: 23%;
+    height: 160px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+}
+.quatre2 h2{
+    margin-left: 36px;
+}
